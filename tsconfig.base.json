@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@viztech/pulumi-api-wrapper": ["libs/pulumi-api-wrapper/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
